@@ -7,7 +7,6 @@ import Inventory from './components/Inventory';
 import Tasks from './components/Tasks';
 import Recipes from './components/Recipes';
 import CalendarView from './components/CalendarView';
-import JarvisChat from './components/JarvisChat';
 import Auth from './components/Auth';
 
 const App: React.FC = () => {
@@ -127,14 +126,6 @@ const App: React.FC = () => {
 
         {renderContent()}
       </main>
-
-      <JarvisChat 
-        persona={user.persona} 
-        context={{ tasks, inventory, recipes, notifications }} 
-        setTasks={setTasks}
-        setInventory={setInventory}
-        addNotification={addNotification}
-      />
     </div>
   );
 };

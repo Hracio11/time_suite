@@ -117,7 +117,7 @@ const Recipes: React.FC<RecipesProps> = ({ recipes, setRecipes, inventory, notif
         })}
         {recipes.length === 0 && !showForm && (
           <div className="col-span-full py-20 text-center glass rounded-2xl opacity-50">
-            <p>Tu recetario está vacío. Jarvis puede sugerirte algunas si le preguntas.</p>
+            <p>Tu recetario está vacío. Comienza agregando tus recetas favoritas.</p>
           </div>
         )}
       </div>
