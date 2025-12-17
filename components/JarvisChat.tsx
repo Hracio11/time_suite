@@ -14,7 +14,7 @@ interface JarvisChatProps {
 const JarvisChat: React.FC<JarvisChatProps> = ({ persona, context, setTasks, setInventory, addNotification }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: 'jarvis' | 'user', text: string }[]>([
-    { role: 'jarvis', text: `Saludos, ${persona}. Soy HESTIA. ¿En qué puedo asistirte hoy?` }
+    { role: 'jarvis', text: `Saludos, ${persona}. Soy el asistente de Time Suite. ¿En qué puedo asistirte hoy?` }
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -61,7 +61,7 @@ const JarvisChat: React.FC<JarvisChatProps> = ({ persona, context, setTasks, set
           <div className="p-5 border-b border-slate-800 bg-sky-500/10 flex justify-between items-center">
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
-              <p className="font-bold text-sky-400">HESTIA - Jarvis Mode</p>
+              <p className="font-bold text-sky-400 tracking-tight text-sm">TIME SUITE • Jarvis</p>
             </div>
             <button onClick={() => setIsOpen(false)} className="text-slate-500 hover:text-white text-xl">✕</button>
           </div>

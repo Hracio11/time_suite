@@ -1,5 +1,5 @@
 {
-  "name": "HESTIA AI - Smart Home & Task Manager",
+  "name": "Time Suite - Smart Management",
   "description": "Un sistema integral de gestión de tareas, inventario y recetas con un asistente inteligente tipo Jarvis, diseñado para amas de casa, estudiantes y usuarios comunes.",
   "requestFramePermissions": [
     "camera",

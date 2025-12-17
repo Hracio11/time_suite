@@ -110,7 +110,7 @@ const App: React.FC = () => {
         <header className="flex justify-between items-center mb-8">
           <div>
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-blue-500">
-              HESTIA AI
+              Time Suite
             </h1>
             <p className="text-slate-400 text-sm">Bienvenido, {user.name} • {user.persona}</p>
           </div>

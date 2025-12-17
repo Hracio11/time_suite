@@ -83,8 +83,8 @@ const Auth: React.FC<AuthProps> = ({ onAuthSuccess }) => {
 
       <div className={`w-full glass p-8 rounded-3xl jarvis-glow relative z-10 animate-in fade-in zoom-in duration-500 ${!isLogin ? 'max-w-2xl' : 'max-w-md'}`}>
         <div className="text-center mb-8">
-          <div className="inline-block w-16 h-16 rounded-2xl bg-sky-600 flex items-center justify-center font-bold text-3xl mb-4 jarvis-glow shadow-sky-500/50">H</div>
-          <h1 className="text-3xl font-bold text-white tracking-tight">HESTIA AI</h1>
+          <div className="inline-block w-16 h-16 rounded-2xl bg-sky-600 flex items-center justify-center font-bold text-3xl mb-4 jarvis-glow shadow-sky-500/50">T</div>
+          <h1 className="text-3xl font-bold text-white tracking-tight uppercase">Time Suite</h1>
           <p className="text-slate-400 mt-2 text-sm">
             {isLogin ? 'Inicia sesión para acceder al sistema' : 'Crea tu cuenta inteligente hoy'}
           </p>
